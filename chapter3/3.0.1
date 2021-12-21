@@ -61,4 +61,32 @@ including external scripte :
 <script src="file name"></script>
 
 
+Including external script :
+ including an js file  externally in html.
+ <script src="file name"><script>
+
+
+import and export :
+importing an js file and accessing the variable and object etc.. 
+
+exporting an js file into another file is export .
+
+Dynamic Import :
+The file will be loaded in the web page and when the fuction is done the content will be viwed , it will be waiting for the fuction to be done.
+
+<!doctype html>
+<script>
+  async function load() {
+    let say = await import('./say.js');
+    say.hi(); // Hello!
+    say.bye(); // Bye!
+    say.default(); // Module loaded (export default)!
+  }
+</script>
+<button onclick="load()">Click me</button>
+
+
+
+
+
 
