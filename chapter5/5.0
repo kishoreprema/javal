@@ -1,0 +1,17 @@
+Primitive types
+
+In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods.
+ There are 7 primitive data types: 
+ string, number, bigint, boolean, undefined, symbol, and null.
+
+ These are the 7 primitive data types
+
+Numbers, strings and booleans are basic value units. You can write them out
+in literal form: a number can be 123 or 3.14, a string can be "string", or
+a template string: ‘I have {$number} apples.‘ (note the back-tick quotes,
+which allow you to embed variables into the string dynamically.) A boolean can
+only be either true or false. You can combine primitive types using operators,
+pass them to functions or assign them as values to object properties.
+Number(), BigInt(), String() and Boolean() are primitive constructor func-
+tions. We’ll explore constructor functions and classes at a proper time in the
+book. First, let’s briefly go over each primitive individually.
