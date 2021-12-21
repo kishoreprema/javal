@@ -1,0 +1,14 @@
+undefined:
+The global undefined property represents the primitive value undefined
+
+function test(t) {
+  if (t === undefined) {
+    return 'Undefined value!';
+  }
+  return t;
+}
+
+let x;
+
+console.log(test(x));
+// expected output: "Undefined value!"
